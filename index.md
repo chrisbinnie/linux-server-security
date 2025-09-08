@@ -235,7 +235,7 @@ Use AIDE (Advanced Intrusion Detection Environment):
 # Install AIDE
 sudo apt install aide
 
-# Initialize database
+# Initialise database
 sudo aideinit
 
 # Move database
