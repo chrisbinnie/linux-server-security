@@ -268,9 +268,9 @@ getfacl /path/to/file
 
 ## System Monitoring and Logging
 
-### Configure Centralized Logging
+### Configure Centralised Logging
 
-Set up rsyslog for centralized log management:
+Set up rsyslog for centralised log management:
 
 ```bash
 # Edit rsyslog configuration
