@@ -30,7 +30,7 @@ twitter_card: "summary_large_image"
 
 ## Introduction
 
-Linux server security is critical for protecting your infrastructure from cyber threats, data breaches, and unauthorized access. This comprehensive guide covers essential security practices, from basic hardening to advanced threat protection, ensuring your Linux servers remain secure and compliant.
+Linux server security is critical for protecting your infrastructure from cyber threats, data breaches, and unauthorised access. This comprehensive guide covers essential security practices, from basic hardening to advanced threat protection, ensuring your Linux servers remain secure and compliant.
 
 Whether you're managing Ubuntu, CentOS, RHEL, or Debian servers, these security principles apply across distributions and will help you build a robust defense against modern cyber threats.
 
@@ -576,7 +576,7 @@ Remember that security is an ongoing process, not a one-time setup. Regular revi
 
 **Expert Linux and Cloud Security Resources**
 
-Visit [Chris Binnie Cybersecurity](https://www.chrisbinnie.co.uk) for expert insights and practical guides on cybersecurity, container security, and infrastructure hardening.
+Visit [Chris Binnie - Cybersecurity Consultant](https://www.chrisbinnie.co.uk) for expert insights and practical guides on cybersecurity, container security, and infrastructure hardening.
 
 *Author of container security and Linux hardening books, with extensive experience in enterprise security implementations.*
 
