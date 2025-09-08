@@ -1,4 +1,4 @@
-# The Complete Linux Server Security Guide: Hardening Your Infrastructure in 2025
+# Linux Server Security Guide: Hardening Your Infrastructure
 
 ## Table of Contents
 - [Introduction](#introduction)
