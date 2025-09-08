@@ -1,4 +1,19 @@
+---
+layout: default
+title: "Linux Server Security Guide: Complete Hardening & Protection Manual 2025"
+description: "Comprehensive Linux server security guide covering hardening, intrusion detection, firewall configuration, and incident response. Expert techniques for Ubuntu, Linux, RHEL, and Debian servers."
+keywords: "linux server security, server hardening, linux security guide, ubuntu security, centos security, debian security, ssh hardening, firewall configuration, intrusion detection, fail2ban, aide, ossec, linux security best practices"
+author: "Chris Binnie"
+canonical_url: "https://chrisbinnie.github.io/linux-server-security/"
+og_title: "Linux Server Security Guide: Complete Hardening & Protection Manual 2025"
+og_description: "Master Linux server security with this comprehensive guide covering hardening, monitoring, and incident response for all major distributions."
+og_type: "article"
+twitter_card: "summary_large_image"
+---
+
 # Linux Server Security Guide: Hardening Your Infrastructure
+
+> **Secure your Linux infrastructure with this security guide.** Learn essential hardening techniques from my working notes including intrusion detection and defense strategies for: Ubuntu, CentOS, RHEL and Debian servers. This guide covers many facets from basic setup to advanced threat protection.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -190,6 +205,8 @@ bantime = 3600
 sudo systemctl enable fail2ban
 sudo systemctl start fail2ban
 ```
+
+> **Security Tip:** Always test firewall rules on a separate connection before applying them to your primary SSH session to avoid locking yourself out.
 
 ## File System Security
 
@@ -434,6 +451,8 @@ kernel.yama.ptrace_scope = 1
 sudo sysctl -p /etc/sysctl.d/99-security.conf
 ```
 
+> **Warning:** Always test kernel parameter changes in a non-production environment first, as incorrect settings can cause system instability.
+
 ## Security Auditing
 
 ### Regular Security Assessments
@@ -541,7 +560,7 @@ sudo chmod +x /usr/local/bin/incident-response.sh
 
 Linux server security requires a multi-layered approach combining preventive measures, detection capabilities, and response procedures. Regular security assessments, timely updates, and continuous monitoring are essential for maintaining a secure infrastructure.
 
-Key security principles include:
+**Key security principles include:**
 
 - **Defense in Depth**: Multiple security layers protect against various attack vectors
 - **Principle of Least Privilege**: Users and processes should have minimal necessary permissions
@@ -555,4 +574,12 @@ Remember that security is an ongoing process, not a one-time setup. Regular revi
 
 ---
 
-*For more Linux server security resources and updates, visit [chrisbinnie.co.uk](https://www.chrisbinnie.co.uk) for expert insights and practical guides.*
+**Expert Linux and Cloud Security Resources**
+
+Visit [Chris Binnie Cybersecurity](https://www.chrisbinnie.co.uk) for expert insights and practical guides on cybersecurity, container security, and infrastructure hardening.
+
+*Author of container security and Linux hardening books, with extensive experience in enterprise security implementations.*
+
+---
+
+**Related Topics:** Ubuntu Security, Linux Hardening, Debian Security, SSH Configuration, Firewall Setup, Intrusion Detection, Container Security, DevSecOps
