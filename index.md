@@ -582,4 +582,6 @@ Visit [Chris Binnie - Linux Server and Cloud Seecurity](https://www.chrisbinnie.
 
 ---
 
-**Related Topics:** Ubuntu Security, Linux Hardening, Debian Security, SSH Configuration, Firewall Setup, Intrusion Detection, Container Security, DevSecOps
+Linux® is the registered trademark of Linus Torvalds.
+
+**Related Topics:** Ubuntu Security, Linux Hardening, Debian Security, SSH Configuration, Firewall Setup, Intrusion Detection, Container Security, DevSecOps. 
