@@ -576,12 +576,12 @@ Remember that security is an ongoing process, not a one-time setup. Regular revi
 
 **Expert Linux and Cloud Security Resources**
 
-Visit [Chris Binnie - Linux Server and Cloud Security](https://www.chrisbinnie.co.uk) for expert insights and practical guides on cybersecurity, container security, and infrastructure hardening.
+Visit [Chris Binnie - Linux Server and Cloud Security](https://www.chrisbinnie.co.uk) for expert insights and practical guides on cybersecurity, container security, and infrastructure hardening. Also see my [AWS Security and Hardening page](https://chrisbinnie.github.io/aws-cloud-security) for all things relating to AWS security best practices.
 
 *Author of container security and Linux hardening books, with extensive experience in enterprise security implementations.*
 
 ---
 
-Linux® is the registered trademark of Linus Torvalds.
+Linux® is the registered trademark of Linus Torvalds. Use the information found on these pages at your own risk.
 
-**Related Topics:** Ubuntu Security, Linux Hardening, Debian Security, SSH Configuration, Firewall Setup, Intrusion Detection, Container Security, DevSecOps. 
+**Related Topics:** Ubuntu Security, Linux Hardening, Debian Security, SSH Configuration, Firewall Setup, Intrusion Detection, Container Security, DevSecOps, AWS, Amazon Web Services, Cloud Security. 
