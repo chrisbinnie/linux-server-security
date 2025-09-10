@@ -9,7 +9,6 @@ og_title: "Linux Server Security Guide: Complete Hardening & Protection Manual 2
 og_description: "Master Linux server security with this comprehensive guide covering hardening, monitoring, and incident response for all major distributions."
 og_type: "article"
 twitter_card: "summary_large_image"
-google_site_verification: "mZViyKCfOely8kCZNXzEQg8fqZgqarh_wOTFPnirR4g"
 ---
 
 # Linux Server Security Guide: Hardening Your Infrastructure
@@ -577,7 +576,7 @@ Remember that security is an ongoing process, not a one-time setup. Regular revi
 
 **Expert Linux and Cloud Security Resources**
 
-Visit [Chris Binnie - Linux Server and Cloud Security](https://www.chrisbinnie.co.uk) for expert insights and practical guides on cybersecurity, container security, and infrastructure hardening. Also see my [AWS Security and Hardening page](https://chrisbinnie.github.io/aws-cloud-security) for all things relating to AWS security best practices.
+Visit [Chris Binnie - Linux Server and Cloud Security](https://www.chrisbinnie.co.uk) for expert insights and practical guides on cybersecurity, container security, and infrastructure hardening. Also see my [AWS Security and Hardening page](https://chrisbinnie.github.io/aws-cloud-security) for all things relating to AWS security best practices. And, for all things K8s security, see my [Kubernetes Security Hardening page](https://chrisbinnie.github.io/kubernetes-security).
 
 *Author of container security and Linux hardening books, with extensive experience in enterprise security implementations.*
 
