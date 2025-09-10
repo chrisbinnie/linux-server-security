@@ -582,6 +582,6 @@ Visit [Chris Binnie - Linux Server and Cloud Security](https://www.chrisbinnie.c
 
 ---
 
-Linux® is the registered trademark of Linus Torvalds. Use the information found on these pages at your own risk.
+Linux® is the registered trademark of Linus Torvalds. Use the information from my notes found on these pages at your own risk.
 
 **Related Topics:** Ubuntu Security, Linux Hardening, Debian Security, SSH Configuration, Firewall Setup, Intrusion Detection, Container Security, DevSecOps, AWS, Amazon Web Services, Cloud Security.
