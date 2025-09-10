@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Linux Server Security Guide: Complete Hardening & Protection Manual 2025"
+title: "Linux Server Security Guide: Complete Hardening & Protection"
 description: "Comprehensive Linux server security guide covering hardening, intrusion detection, firewall configuration, and incident response. Expert techniques for Ubuntu, Linux, RHEL, and Debian servers."
 keywords: "linux server security, server hardening, linux security guide, ubuntu security, centos security, debian security, ssh hardening, firewall configuration, intrusion detection, fail2ban, aide, ossec, linux security best practices"
 author: "Chris Binnie"
@@ -9,6 +9,7 @@ og_title: "Linux Server Security Guide: Complete Hardening & Protection Manual 2
 og_description: "Master Linux server security with this comprehensive guide covering hardening, monitoring, and incident response for all major distributions."
 og_type: "article"
 twitter_card: "summary_large_image"
+google_site_verification: "mZViyKCfOely8kCZNXzEQg8fqZgqarh_wOTFPnirR4g"
 ---
 
 # Linux Server Security Guide: Hardening Your Infrastructure
@@ -584,4 +585,4 @@ Visit [Chris Binnie - Linux Server and Cloud Security](https://www.chrisbinnie.c
 
 Linux® is the registered trademark of Linus Torvalds. Use the information found on these pages at your own risk.
 
-**Related Topics:** Ubuntu Security, Linux Hardening, Debian Security, SSH Configuration, Firewall Setup, Intrusion Detection, Container Security, DevSecOps, AWS, Amazon Web Services, Cloud Security. 
+**Related Topics:** Ubuntu Security, Linux Hardening, Debian Security, SSH Configuration, Firewall Setup, Intrusion Detection, Container Security, DevSecOps, AWS, Amazon Web Services, Cloud Security.
