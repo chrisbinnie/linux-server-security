@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Linux Server Security Guide: Complete Hardening & Protection"
+title: "Linux Server Security Hardening by Chris Binnie"
 description: "Comprehensive Linux server security guide covering hardening, intrusion detection, firewall configuration, and incident response. Expert techniques for Ubuntu, Linux, RHEL, and Debian servers."
 keywords: "linux server security, server hardening, linux security guide, ubuntu security, centos security, debian security, ssh hardening, firewall configuration, intrusion detection, fail2ban, aide, ossec, linux security best practices"
 author: "Chris Binnie"
