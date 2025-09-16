@@ -32,7 +32,7 @@ twitter_card: "summary_large_image"
 
 Linux server security is critical for protecting your infrastructure from cyber threats, data breaches, and unauthorised access. This comprehensive guide covers essential security practices, from basic hardening to advanced threat protection, ensuring your Linux servers remain secure and compliant.
 
-Whether you're managing Ubuntu, CentOS, RHEL, or Debian servers, these security principles apply across distributions and will help you build a robust defense against modern cyber threats.
+Whether you're managing Ubuntu, CentOS, RHEL, or Debian servers, these security principles apply across distributions and will help you build a robust foundational defense against modern cyber threats in [cloud and Kubernetes workloads](https://chrisbinnie.github.io).
 
 ## Initial Server Setup
 
