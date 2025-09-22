@@ -208,7 +208,7 @@ sudo systemctl enable fail2ban
 sudo systemctl start fail2ban
 ```
 
-> **Hard-won Tip:** Always test firewall rules on a separate connection before applying them to your primary SSH session to avoid locking yourself out.
+> **Don't Learn The Hard Way:** Always test firewall rules on a separate connection before applying them to your primary SSH session to avoid locking yourself out.
 
 ## File System Security
 
