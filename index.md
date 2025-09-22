@@ -32,6 +32,8 @@ twitter_card: "summary_large_image"
 
 Linux server security is critical for protecting your infrastructure from cyber threats, data breaches and unauthorised access. This page covers the essential security practices, basic to advanced threat protection, ensuring your Linux servers remain secure and compliant. Do not use the code snippets without extensive testing though. You have been warned!
 
+If you are new to Linux, I would recommend practicing in a virtual machine, where you are free to break things without causing headaches. Watch out for opening the virtual machine up to the internet accidentally though.
+
 Whether you're managing Ubuntu, CentOS, RHEL, or Debian servers, these security principles apply across distributions and will help you build a robust foundational defense against modern cyber threats in [cloud and Kubernetes workloads](https://chrisbinnie.github.io).
 
 ## Initial Server Setup
@@ -71,7 +73,7 @@ sudo whoami
 
 ### Configure SSH Key Authentication
 
-SSH key authentication is significantly more secure than password-based login:
+SSH key authentication is significantly more secure than password-based login. This is the newer type, as RSA is deprecated:
 
 ```bash
 # Generate SSH key pair (on client machine)
@@ -122,7 +124,7 @@ sudo pam_tally2 --user=username --reset
 
 ### Set Up Two-Factor Authentication
 
-Implement 2FA for critical accounts:
+Implement 2FA for critical accounts using a simple but effective tool, shown in detail in my first book:
 
 ```bash
 # Install Google Authenticator
@@ -382,7 +384,7 @@ sudo chmod +x /usr/local/bin/security-updates.sh
 
 ### Implement SELinux/AppArmor
 
-Enable mandatory access controls:
+Enable mandatory access controls, but do this carefully or locking up your system is perfectly possible:
 
 ```bash
 # For Ubuntu (AppArmor)
