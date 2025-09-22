@@ -1,12 +1,12 @@
 ---
 layout: default
 title: "Linux Server Security Hardening by Chris Binnie"
-description: "Comprehensive Linux server security guide covering hardening, intrusion detection, firewall configuration, and incident response. Expert techniques for Ubuntu, Linux, RHEL, and Debian servers."
+description: "Detailed Linux server security information covering hardening, intrusion detection, firewall configuration and incident response. Expert techniques for Ubuntu, Linux, RHEL and Debian servers."
 keywords: "linux server security, server hardening, linux security guide, ubuntu security, centos security, debian security, ssh hardening, firewall configuration, intrusion detection, fail2ban, aide, ossec, linux security best practices"
 author: "Chris Binnie"
 canonical_url: "https://chrisbinnie.github.io/linux-server-security/"
-og_title: "Linux Server Security Guide: Complete Hardening & Protection Manual 2025"
-og_description: "Master Linux server security with this comprehensive guide covering hardening, monitoring, and incident response for all major distributions."
+og_title: "Linux Server Security: Detailed Hardening"
+og_description: "Master Linux server security covering hardening, monitoring, and incident response for all major distributions."
 og_type: "article"
 twitter_card: "summary_large_image"
 ---
@@ -30,7 +30,7 @@ twitter_card: "summary_large_image"
 
 ## Introduction
 
-Linux server security is critical for protecting your infrastructure from cyber threats, data breaches, and unauthorised access. This comprehensive guide covers essential security practices, from basic hardening to advanced threat protection, ensuring your Linux servers remain secure and compliant.
+Linux server security is critical for protecting your infrastructure from cyber threats, data breaches and unauthorised access. This page covers the essential security practices, basic to advanced threat protection, ensuring your Linux servers remain secure and compliant. Do not use the code snippets without extensive testing though. You have been warned!
 
 Whether you're managing Ubuntu, CentOS, RHEL, or Debian servers, these security principles apply across distributions and will help you build a robust foundational defense against modern cyber threats in [cloud and Kubernetes workloads](https://chrisbinnie.github.io).
 
@@ -206,7 +206,7 @@ sudo systemctl enable fail2ban
 sudo systemctl start fail2ban
 ```
 
-> **Security Tip:** Always test firewall rules on a separate connection before applying them to your primary SSH session to avoid locking yourself out.
+> **Hard-won Tip:** Always test firewall rules on a separate connection before applying them to your primary SSH session to avoid locking yourself out.
 
 ## File System Security
 
@@ -451,7 +451,7 @@ kernel.yama.ptrace_scope = 1
 sudo sysctl -p /etc/sysctl.d/99-security.conf
 ```
 
-> **Warning:** Always test kernel parameter changes in a non-production environment first, as incorrect settings can cause system instability.
+> **Take Note:** Always test kernel parameter changes in a non-production environment first, as incorrect settings can cause system instability.
 
 ## Security Auditing
 
@@ -541,8 +541,7 @@ sudo ufw deny in
 sudo ufw deny out
 
 # Preserve evidence
-echo "2. Preserving evidence..."
-sudo dd if=/dev/sda of=/backup/forensic-image-$(date +%Y%m%d).img bs=4096
+sudo dd if=/dev/sda of=/backup/forensic-image-$(date +%Y%m%d).img bs=4096 conv=sync,noerror
 
 # Document system state
 echo "3. Documenting system state..."
@@ -584,4 +583,4 @@ Visit [Chris Binnie - Linux Server and Cloud Security](https://www.chrisbinnie.c
 
 Linux® is the registered trademark of Linus Torvalds. Use the information from my notes found on these pages at your own risk.
 
-**Related Topics:** Ubuntu Security, Linux Hardening, Debian Security, SSH Configuration, Firewall Setup, Intrusion Detection, Container Security, DevSecOps, AWS, Amazon Web Services, Cloud Security.
+**Related Topics:** Ubuntu Security, Linux Hardening, Debian Security, SSH Configuration, Firewall Setup, Intrusion Detection, Container Security, DevSecOps, AWS, Amazon Web Services, Cloud Security, RHEL, Incident Response
