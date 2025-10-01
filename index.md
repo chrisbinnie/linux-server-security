@@ -579,7 +579,8 @@ Remember that security is an ongoing process, not a one-time setup. Regular revi
 
 Visit [Chris Binnie - Linux Server and Cloud Security](https://www.chrisbinnie.co.uk) for expert insights and practical guides on cybersecurity, container security, and infrastructure hardening. Also see my [AWS Security and Hardening page](https://chrisbinnie.github.io/aws-cloud-security) for all things relating to AWS security best practices. And, for all things K8s security, see my [Kubernetes Security Hardening page](https://chrisbinnie.github.io/kubernetes-security).
 
-*Author of container security and Linux hardening books, with extensive experience in enterprise security implementations.*
+
+In case you missed it, my complete guide on [how to achieve Grade A+ SEO, security and performance on your website](https://chrisbinnie.github.io/100-per-cent-website-seo-security-performance-scores).
 
 ---
 
