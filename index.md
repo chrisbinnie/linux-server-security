@@ -13,7 +13,7 @@ twitter_card: "summary_large_image"
 
 # Chris Binnie - Linux Server Security: Hardening Your Infrastructure
 
-> **Secure your Linux infrastructure with this security information.** Learn essential hardening techniques from my working notes including intrusion detection and defense strategies for: Ubuntu, CentOS, RHEL and Debian servers. This guide covers many facets from basic setup to advanced threat protection.
+> **Secure your Linux infrastructure with this security information by [Chris Binnie](https://chrisbinnie.github.io/about.html)** Learn essential hardening techniques from my working notes including intrusion detection and defense strategies for: Ubuntu, CentOS, RHEL and Debian servers. This guide covers many facets from basic setup to advanced threat protection.
 
 ## Table of Contents
 - [Introduction](#introduction)
